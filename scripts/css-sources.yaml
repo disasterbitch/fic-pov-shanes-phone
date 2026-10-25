@@ -1,0 +1,4 @@
+sources:
+  - name: Gmail
+    repo: workskin-gmail
+    file: gmail.css
