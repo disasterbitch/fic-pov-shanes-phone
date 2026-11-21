@@ -127,6 +127,7 @@
 
 #workskin .gmail .footer img {
     height: 1em;
+    width: auto;
 }
 
 #workskin .gmail .footer p {
@@ -149,6 +150,7 @@
 #workskin .gmail .footer .emoji img {
     height: 0.9em;
     border-radius: 10em;
+    width: auto;
 }
 
 #workskin .gmail .footer span {
@@ -602,3 +604,128 @@
 }
 
 /* End of Reddit skin */
+
+/* Start of Secret Santa skin */
+
+#workskin .santa {
+    width: 25em;
+    background-color: white;
+    color: rgb(30, 30, 30);
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: auto;
+    padding: 1em;
+}
+
+#workskin .santa div,
+#workskin .santa p {
+  margin: 0em;
+  padding: 0em;
+  display: inline;
+}
+
+#workskin .santa img {
+    height: 1em;
+    width: auto;
+}
+
+#workskin .santa .header,
+#workskin .santa .main,
+#workskin .santa .footer {
+  display: block;
+}
+
+#workskin .santa .header,
+#workskin .santa .main {
+    margin-bottom: 1em;
+}
+
+#workskin .santa .header {
+    background-color: rgba(227, 227, 227, 0.8);
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+#workskin .santa .header .back {
+    float: left;
+}
+
+#workskin .santa .header .name {
+    display: flex;
+    justify-content: center;
+}
+
+#workskin .santa .header .settings {
+    float: right;
+}
+
+#workskin .santa .main {
+    overflow: scroll;
+    max-height: 30em;
+}
+
+#workskin .santa .main .date {
+    display: flex;
+    justify-content: center;
+    color: rgba(30, 30, 30, 0.5);
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+
+#workskin .santa .main .message .text {
+    display: block;
+    height: auto;
+    padding: 0.5em 0.5em 0em 0.5em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+
+#workskin .santa .main .message .text p {
+    display: block;
+    line-height: 1.2;
+    padding-bottom: 0.5em;
+}
+
+#workskin .santa .main .message {
+    display: block;
+    width: 45%;
+    overflow-wrap: break-word;
+}
+
+#workskin .santa .main .message .timestamp {
+    display: block;
+    margin-left: 0.8em;
+    color: rgba(30, 30, 30, 0.5);
+    font-size: 0.7em;
+}
+
+#workskin .santa .main .message.sent {
+    margin-left: 55%;
+}
+
+#workskin .santa .main .message.sent .text{ 
+    background-color: rgba(165, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 1);
+}
+
+#workskin .santa .main .message.received .text{ 
+    background-color: rgba(8, 125, 0, 0.8);
+    color: rgba(255, 255, 255, 1);
+}
+
+#workskin .santa .footer .placeholder {
+    background-color: rgba(227, 227, 227, 0.8);
+    color: rgba(30, 30, 30, 0.7);
+    font-size: 0.9em;
+    padding: 0.5em;
+    border-radius: 1em;
+    display: inline-block;
+    width: 80%;
+}
+
+#workskin .santa .footer .send img {
+    display: inline-block;
+    margin-bottom: -0.22em;
+    margin-left: 0.8em;
+}
+
+/* End of Secret Santa skin */
