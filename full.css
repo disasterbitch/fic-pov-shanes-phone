@@ -475,6 +475,8 @@
     border-radius: 1em 1em 0em 0em;
     padding: 0.5em;
     margin-top: -0.9em;
+    max-height: 35em;
+    overflow: scroll;
 }
 
 #workskin .youtube .videoMeta .title {
@@ -711,6 +713,11 @@
     display: block;
     width: 45%;
     overflow-wrap: break-word;
+}
+
+#workskin .santa .main .message .link {
+    color: rgb(85, 26, 139);
+    text-decoration: underline;
 }
 
 #workskin .santa .main .message .timestamp {
