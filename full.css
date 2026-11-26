@@ -320,6 +320,7 @@
     margin: auto;
     max-height: 54em;
     overflow: scroll;
+    line-height: 1;
 }
 
 #workskin .youtube::-webkit-scrollbar {
@@ -337,8 +338,8 @@
 #workskin .youtube .video .overlay,
 #workskin .youtube .videoMeta,
 #workskin .youtube .channel,
-#workskin .youtube .comments,
-#workskin .youtube .comment,
+#workskin .youtube .ytcomments,
+#workskin .youtube .ytcomment,
 #workskin .youtube .suggestions,
 #workskin .youtube .suggestion,
 #workskin .youtube .suggestion .channel {
@@ -534,7 +535,7 @@
     height: 1em;
 }
 
-#workskin .youtube .comments {
+#workskin .youtube .ytcomments {
     background-color: rgb(242, 242, 242);
     border-radius: 0.7em;
     padding: 1em;
@@ -542,31 +543,34 @@
     margin-top: 1em;
 }
 
-#workskin .youtube .comments .title {
+#workskin .youtube .ytcomments .title {
     font-weight: bold;
 }
 
-#workskin .youtube .comments .count {
+#workskin .youtube .ytcomments .count {
     font-size: 0.8em;
     margin-left: 0.3em;
     color: rgb(95, 95, 95);
 }
 
-#workskin .youtube .comments .comment {
+#workskin .youtube .ytcomments .ytcomment {
     padding-top: 1em;
 }
 
-#workskin .youtube .comments .comment .icon {
+#workskin .youtube .ytcomments .ytcomment .icon {
     float: left;
     margin-right: 0.7em;
+    height: 1.2em;
+    width: auto;
 }
 
-#workskin .youtube .comments .comment .icon img {
+#workskin .youtube .ytcomments .ytcomment .icon img {
     height: 1.2em;
+    width: auto;
     border-radius : 100%;
 }
 
-#workskin .youtube .comments .comment .text {
+#workskin .youtube .ytcomments .ytcomment .text {
     display: block;
     margin-top: -0.4em;
 }
